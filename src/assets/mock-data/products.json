@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Fruit 1",
+    "brand": "Fruits",
+    "price": 40,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "smp-img-02.jpg"
+  },
+  {
+    "title": "Fruit 2",
+    "brand": "Fruits",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+    "image": "instagram-img-03.jpg"
+  },
+  {
+    "title": "Heme",
+    "brand": "Vegetables",
+    "price": 52,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget arcu. Curabitur ac pharetra nisl, sit amet mattis dolor.",
+    "image": "instagram-img-05.jpg"
+  },
+  {
+    "title": "Fruit 3",
+    "brand": "Fruits",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "instagram-img-06.jpg"
+  },
+  {
+    "title": "Fruit 4",
+    "brand": "Fruits",
+    "price": 28,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "instagram-img-07.jpg"
+  },
+  {
+    "title": "Fruit 5",
+    "brand": "Fruits",
+    "price": 18,
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at purus pulvinar, placerat turpis ac, interdum metus. In eget massa sed enim hendrerit auctor a eget.",
+    "image": "instagram-img-08.jpg"
+  }
+]
