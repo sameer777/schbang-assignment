@@ -8,7 +8,7 @@ import {ProductService} from "../../services/products.service";
 import {Product} from "../../model/product";
 import {CartService} from "../../services/cart.service";
 import {Router} from "@angular/router";
-
+import { environment } from '../../../environments/environment';
 @Component({
     selector: 'app-category',
     templateUrl: './category.component.html',
@@ -17,6 +17,7 @@ import {Router} from "@angular/router";
 export class CategoryComponent implements OnInit {
     public products:Array<Product>;
     private sub;
+      baseUrl = environment.baseUrl;
     constructor(
          private productService:ProductService,
          private cartService:CartService,
@@ -27,7 +28,7 @@ export class CategoryComponent implements OnInit {
         this.load();
     }
     load = () => {
-       this.sub = this.productService.getProducts('./assets/mock-data/products.json')
+       this.sub = this.productService.getProducts(this.baseUrl+'getProduct.php')
             .subscribe(res => {
                 this.products = res;
             })

@@ -8,7 +8,7 @@ import {ActivatedRoute} from "@angular/router";
 import {ProductService} from "../../services/products.service";
 import {Product} from "../../model/product";
 import {CartService} from "../../services/cart.service";
-
+import { environment } from '../../../environments/environment';
 @Component({
     selector: 'app-product',
     templateUrl: './product.component.html',
@@ -17,6 +17,7 @@ import {CartService} from "../../services/cart.service";
 export class ProductComponent implements OnInit {
     private sub;
     public product:Product;
+     baseUrl = environment.baseUrl;
     quantity: number = 1;
     constructor(private route: ActivatedRoute,
                 private productService:ProductService,
@@ -30,7 +31,7 @@ export class ProductComponent implements OnInit {
             })
     }
     getProduct = (id) => {
-        this.sub = this.productService.getProducts('./assets/mock-data/products.json')
+        this.sub = this.productService.getProducts(this.baseUrl+'getProduct.php')
             .subscribe(res => {
                 this.product = res[id-1];
             })
